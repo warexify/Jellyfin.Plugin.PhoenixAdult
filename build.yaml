@@ -1,0 +1,19 @@
+---
+name: "PhoenixAdult"
+guid: "8f97371f-8617-463c-9859-a33072182494"
+version: "2.4.2.43"
+targetAbi: "10.7.0.0"
+framework: "net5.0"
+overview: "Manage Your Adult Videos in Jellyfin"
+description: >
+  This metadata provider helps fill Jellyfin/Emby with information
+  for your adult videos by pulling from the original site.
+category: "Metadata"
+owner: "DirtyRacer"
+artifacts:
+  - "Jellyfin.Plugin.PhoenixAdult.dll"
+build_type: "dotnet"
+dotnet_configuration: "Release"
+dotnet_framework: "net5.0"
+changelog: >
+  Update for 10.7 support
